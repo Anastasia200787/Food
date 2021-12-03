@@ -1,0 +1,48 @@
+@import "base/fonts/";
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 25px 0 25px;
+  background: url(../img/background.jpg) center center/cover no-repeat;
+}
+
+.logo {
+  color: #000000;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 35px;
+  font-family: "Neutra-Inline";
+  text-decoration: none;
+  padding: 0 35px;
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    width: 28px;
+    height: 5px;
+    background: #e08b8e;
+  }
+  &::before {
+    left: 0;
+  }
+  &::after {
+    right: 0;
+  }
+}
+
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/food";
+@import "blocks/footer";
+
+
+@import "media/media";

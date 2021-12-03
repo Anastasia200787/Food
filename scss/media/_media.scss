@@ -1,0 +1,88 @@
+@media (max-width: 1080px) {
+  .food_item_title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .food_item_content img {
+    margin-bottom: 20px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 860px) {
+  .header {
+    font-size: 22px;
+  }
+
+  .logo {
+    font-size: 22px;
+    padding: 0 27px;
+    &::after,
+    &::before {
+      width: 20px;
+      height: 3px;
+      bottom: 5px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .promo_link {
+    img {
+      width: 40px;
+    }
+  }
+  .food_item {
+    flex-direction: column;
+    .food_item_content {
+      width: 100%;
+    }
+    .food_item_img {
+      width: 100%;
+    }
+  }
+  .food_item_right {
+    flex-direction: column-reverse;
+  }
+
+  .food_item_content {
+    padding: 40px 0;
+  }
+
+  .footer {
+    padding: 50px 30px;
+  }
+  .footer_contacts {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 15px;
+  }
+  .menu_list {
+    gap: 15px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header_wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer_contacts {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer {
+    text-align: center;
+  }
+}

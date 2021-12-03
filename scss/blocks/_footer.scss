@@ -1,0 +1,31 @@
+.footer {
+  padding: 138px 71px 97px 88px;
+  background: #fff url(../img/herbas_bg_4.png) center center/cover no-repeat;
+  max-width: 1326px;
+  margin: 0 auto;
+}
+.footer_contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 110px;
+}
+
+.footer_adress {
+  font-family: "Neutra-Bold";
+  font-size: 16px;
+
+  :nth-child(3) {
+    margin-top: 25px;
+  }
+}
+.footer_social {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  list-style: none;
+  opacity: 0.5;
+  a {
+    display: inline-block;
+  }
+}

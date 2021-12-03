@@ -1,0 +1,27 @@
+.header {
+  text-transform: uppercase;
+  color: #000000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  font-size: 35px;
+  padding-top: 35px;
+  font-family: "Neutra-Inline";
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_list {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  .menu_link {
+    text-decoration: none;
+    color: #000000;
+  }
+}
